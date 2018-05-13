@@ -10,3 +10,4 @@ install:
 
 script:
   - python test.py
+  - yapf --diff --recursive . || exit;
