@@ -1,0 +1,74 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "ae2a063c12d857c9dae397e88ab9f06b3d82cc021cdda94849433a94c2ab9de0"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.4"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "npyscreen": {
+            "hashes": [
+                "sha256:622ee0f9a5dae946e635b7c6e0f6d65e1ed3c9ea0d20b89dab7f58d580e5126e"
+            ],
+            "index": "pypi",
+            "version": "==4.10.5"
+        },
+        "toml": {
+            "hashes": [
+                "sha256:8e86bd6ce8cc11b9620cb637466453d94f5d57ad86f17e98a98d1f73e3baab2d"
+            ],
+            "index": "pypi",
+            "version": "==0.9.4"
+        }
+    },
+    "develop": {
+        "blessings": {
+            "hashes": [
+                "sha256:26dbaf2f89c3e6dee11c10f7c0b85756ed75cf602b1bb7935b4efd8ed67a000f",
+                "sha256:466e43ff45723b272311de0437649df464b33b4daba7a54c69493212958e19c7",
+                "sha256:74919575885552e14bc24a68f8b539690bd1b5629180faa830b1a25b8c7fb6ea"
+            ],
+            "version": "==1.6.1"
+        },
+        "colour-runner": {
+            "hashes": [
+                "sha256:a4b508e05647aa0fb8fa4b828000a611cfcf578db8283725a1283329a73decec",
+                "sha256:d939b492ae0e28db35e244232c028c84a47f26b18faa051b86b30a1ad730c738"
+            ],
+            "index": "pypi",
+            "version": "==0.0.5"
+        },
+        "pyfakefs": {
+            "hashes": [
+                "sha256:96f1d008ae6cc4d9866dd674ee852748a11c67784f1f369221a5fd2750cc0883"
+            ],
+            "index": "pypi",
+            "version": "==3.4.1"
+        },
+        "pygments": {
+            "hashes": [
+                "sha256:78f3f434bcc5d6ee09020f92ba487f95ba50f1e3ef83ae96b9d5ffa1bab25c5d",
+                "sha256:dbae1046def0efb574852fab9e90209b23f556367b5a320c0bcb871c77c3e8cc"
+            ],
+            "version": "==2.2.0"
+        },
+        "yapf": {
+            "hashes": [
+                "sha256:7d8ae3567f3fb2d288f127d35e4decb3348c96cd091001e02e818465da618f90",
+                "sha256:dd23b52edbb4c0461d0383050f7886175b0df9ab8fd0b67edd41f94e25770993"
+            ],
+            "index": "pypi",
+            "version": "==0.21.0"
+        }
+    }
+}
