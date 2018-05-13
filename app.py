@@ -41,9 +41,7 @@ class ProjupApp(npyscreen.NPSAppManaged):
     self.__modules.append(
       projup.modules.CodeLanguages(PATH_TO_PROJUP, execPath)
     )
-    self.__modules.append(
-      projup.modules.OperatingSystems(PATH_TO_PROJUP, execPath)
-    )
+    self.__modules.append(projup.modules.OperatingSystems(PATH_TO_PROJUP, execPath))
     self.__modules.append(
       projup.modules.ContinousIntegration(PATH_TO_PROJUP, execPath)
     )
