@@ -55,3 +55,7 @@ email = "info@example.com"
   * Add yourself to the AUTHORS file.
   * Run `pipenv sync --dev` if you didn't do it yet.
   * Make sure, that you run `pipenv run yapf -i -r *.py` before you commit.
+
+## alternatives
+
+* [cookiecutter](https://github.com/audreyr/cookiecutter)
